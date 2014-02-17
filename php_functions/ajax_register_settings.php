@@ -1,0 +1,9 @@
+<?php 
+ $dbAccessdomain="localhost";
+ $dbAccessDBName="niclawre_nl";
+ $dbAccessUsername="niclawre_ajaxusr";
+ $dbAccessPassword="wa,TkTUTs2.F";
+ $rootDirectory="http://nic-lawrence.com/ajaxlogin";
+ $tableName="all_userstesterac";
+ $siteEmailAddress="noreply@testerac.com";
+?>

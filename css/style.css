@@ -1,0 +1,294 @@
+html {
+    color: #2C2C2C;
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Chivo',sans-serif;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-weight:normal;
+	margin:0px;
+	padding:0px;
+}
+
+#header{
+	background-image:url("images/greay_header_tile002.jpg");
+}
+
+#header_inner{
+	background-image:url("images/greay_header_circle002.jpg");
+	height:254px;
+	background-repeat:no-repeat;
+	width:980px;
+	margin:auto;
+	color:#F4F9FD;
+}
+
+#header_inner h2
+{
+	padding-top: 30px;
+	text-shadow: 1px 1px 1px #999999;
+}
+
+#headerContentBlock
+{
+	height:95px;
+	font-size:0.9em;
+}
+
+#headerContentBlock span
+{
+	margin-top:50px;
+	display:block;
+}
+
+#aLoginButton,
+#remindMeButton{
+	background-image: url("images/button001.png");
+    background-repeat: no-repeat;
+    color: black;
+    font-size: 0.7em;
+    padding: 5px 5px 5px 4px;
+    cursor:pointer;
+}
+
+#remindMeButton{
+	background-image: url("images/button_long001.png");
+}
+
+#header .buttonStyle:hover{
+	color:#6f6f6f;
+}
+
+#header #aLoginButton:hover{
+	background-image: url("images/button_down001.png");
+}
+
+#aForgotPassword{
+    cursor: pointer;
+    float: right;
+    font-size: 0.75em;
+    margin-top: 5px;
+    text-decoration: underline;
+}
+
+
+#page_inner{
+	background-image:url("images/white_header_circle002.jpg");
+	background-repeat:no-repeat;
+	width:980px;
+	padding:20px;
+	margin:auto;
+	min-height:400px;
+}
+
+#page_inner label{
+	font-size:0.814em;
+}
+
+#userLoginArea{
+	float:right;
+	margin-top:30px;
+}
+
+
+#register_block,
+#changeDetailsBlock{
+	margin:auto;
+	width:450px;
+}
+#register_block>div>div,
+#changeDetailsBlock > div > div{
+	float:right;
+}
+
+#changeDetailsBlock > div{
+	margin-bottom:20px;
+}
+
+.noResponse{	
+	margin-right:25px;
+}
+
+#footer{
+    width:100%;
+    position:absolute;
+    bottom:0px;
+    background-image:url("images/greay_header_tile_flip002.png");
+    background-repeat:repeat-x;
+    background-position:top;	
+}
+
+#footer_inner{
+	width:980px;
+	padding:20px;
+	height:50px;
+	margin:auto;
+    background-repeat:none;
+    background-position:top;
+    color:#999999;	
+    font-size:0.689em;
+    text-align:center;
+}
+
+#registerPassword_InstructionsLabel{
+	color:#444444;
+	font-size:0.750em;
+}
+#registerPassword_InstructionsLabel .ast{
+	color:red;	
+}
+
+#register_block #registerActions{
+	float:right;	
+}
+
+#page_inner a,
+#page_inner div a{
+	font-size:0.875em;
+	color:#444444;
+	text-decoration:underline;
+	cursor:pointer;
+}
+
+#changeDetailsControls a{
+	margin-left:10px;
+}
+
+#changeDetailsControls a{	
+	float:right;
+}
+
+#loginBlock label{
+	font-size:0.750em;
+}
+
+#loginBlock input{
+	height: 12px;
+    width: 95px;
+}
+
+#ajax_logo{
+    
+    margin-right: 25px;
+    margin-top: 20px;
+    width: 130px;
+}
+
+#header a:link,
+#header a:visited,
+#header a:hover,
+#header a:active,
+#header a:target{
+	
+	color:#F4F9FD;
+	
+}
+
+#installLinkBlock{
+	float:left;
+	margin-top:15px;
+}
+
+#headerContentBlock ul li{
+    margin-bottom: 15px;
+    margin-left: 150px;
+    text-shadow: 1px 1px 1px #999999;
+}
+
+#logoWrapper{	
+	float:left;
+	height: 250px;
+}
+#forgottenPasswordBlock{
+	float:left;
+}
+
+#register_block #nameTakenLabel,
+#register_block #emailTakenLabel{
+    color: red;
+    font-size: 0.65em;
+    margin-left: 10px;
+}
+
+#forgottenPasswordBlock label{
+	font-size:0.75em;
+}
+
+#forgottenPasswordBlock input{
+	height:12px;
+}
+
+#page{
+	min-height: 300px;	
+}
+
+#page_inner h3{
+	padding-bottom:30px;
+	text-shadow:1px 1px 1px #afafaf;	
+}
+
+#page_inner p,
+#page_inner h3{
+	margin:auto;
+	width:450px;
+}
+
+label.pos{
+	color:#64ab56;	
+}
+
+label.neg{
+	color:#bb2025;	
+}
+
+#nameTakenLabel,
+#emailTakenLabel{
+	display:none;	
+}
+
+#passwordError {
+	color:#eeeeee;
+	padding-top:6px;
+	display:none	;
+	margin-left:60px;
+	float:left;
+	
+}
+
+#reminderError{
+	display:block;
+	margin-left:40px;
+	padding-top:10px;
+}
+
+#passwordError span,
+#reminderError span{
+	color:#bb2025;	
+}
+
+.installer form{
+	width:500px;
+	margin:auto;
+}
+
+.installer form div{
+	padding:20px;	
+}
+.installer form label{		
+	float:left;
+}
+
+.installer form input[type=text]{	
+	float:right;
+}
+
+.installer form #installButton{
+	margin-top:10px;
+	margin-left:10px;	
+}
